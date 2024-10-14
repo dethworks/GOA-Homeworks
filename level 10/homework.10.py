@@ -57,17 +57,10 @@ elif not ticket_price<12 and  is_mom_angry and  is_raining:
 elif not ticket_price>12 and  is_mom_angry and  is_raining:
     print("You suck stay home!!!")
                      #4
+#triangle 
 
-from turtle import *
-
-for i in range(3):
-    forward(200)
-    left(120)
-
-    exitonclick()
-
-
-
+for i in range(10):
+   print("❤" * i)
                         #5
 
 name=input("Enter your age: ")

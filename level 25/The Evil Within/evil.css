@@ -1,0 +1,23 @@
+head {
+  background-color: red;
+  text-align: center;
+}
+body {
+  background-color: red;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  border: 15px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+pre {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+video {
+  border: 15px solid;
+  border-radius: 10px;
+}

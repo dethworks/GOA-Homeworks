@@ -1,0 +1,49 @@
+.vandamme {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #38b94d; 
+    color: rgb(106, 69, 61);
+    color: hsl(215, 75%, 47%); 
+  }
+  
+  
+.brucelee {
+    font-family: 'Times New Roman', serif;
+    font-style: inherit;
+    font-weight: 700; 
+    color: #ffff1f; 
+    color: rgb(41, 248, 18);
+    color: hsl(60, 1%, 41%);
+  }
+  
+
+.jackiechan {
+    font-family: 'Courier New', monospace;
+    font-style: oblique;
+    font-weight: 500; 
+    color: #2e442e; 
+    color: rgb(250, 15, 242); 
+    color: hsla(120, 89%, 7%, 0.994); 
+  }
+  
+
+.jetli {
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    color: #0000FF; 
+    color: rgb(255, 8, 8); 
+    color: hsl(240, 100%, 50%); 
+  }
+  
+
+.stallone {
+    font-family: 'Georgia', serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #ffc40071; 
+    color: rgba(0, 0, 0, 0.336); 
+    color: hsl(9, 100%, 64%); 
+  }
+  

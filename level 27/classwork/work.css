@@ -1,0 +1,11 @@
+#text1{
+    background-color: #2b2d4f;
+}
+.text1{
+    font-size: xx-large;
+    color: hsl(80, 30%, 70%, .5);
+    font-family: cursive;
+}
+body{
+    background-color: rgb(122, 25, 66);
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "tolma";
+    src: url(/fonts/3d_unicode.ttf);
+
+}
+
+body{
+    text-align: center;
+    border: solid;
+}
+

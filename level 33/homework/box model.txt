@@ -1,0 +1,5 @@
+ყუთი რომელიც შედგება 4 ფენისგან
+Content 
+Padding 
+Border 
+Margin 

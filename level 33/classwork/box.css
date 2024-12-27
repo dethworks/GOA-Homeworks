@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+.box {
+        width: 200px;
+        height: 100px;
+        background-color: rgb(0, 19, 90);
+        border-radius: 50% 50% 50% 50%;
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #41ff07;
+        border: 2px solid #ff0000;
+    }
+    

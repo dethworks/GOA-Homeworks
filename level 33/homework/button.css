@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+.butt{ 
+    background-color: brown;
+    margin: 20px 30px 40px 50px;
+    padding: 50px 40px 30px 20px;
+    border-radius: 50%;
+}

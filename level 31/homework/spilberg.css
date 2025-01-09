@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .num1 {
+    text-align: center;
+    background-color: goldenrod;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    font-size: large;
+    border: solid;
+    color: black;
+  }
+  
+  .image1 {
+    border: 5px solid black;
+    width: 600px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .foot {
+    background-color: black;
+    border: solid goldenrod 5px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+  }
+  

@@ -4,17 +4,16 @@
     box-sizing: border-box;
   }
 body {
-    background-image: url(medival\ axe.jpg);
+    background-image: url(dodo.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-
 }
 
 .kill {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    color: #1E90FF; 
     font-weight: bolder;
     font-size: large;
     text-align: center;

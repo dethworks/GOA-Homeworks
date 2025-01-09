@@ -4,17 +4,15 @@
     box-sizing: border-box;
   }
 body {
-    background-image: url(medival\ axe.jpg);
+    background-image: url(lion.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-
 }
-
 .kill {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #D2691E;
     font-weight: bolder;
     font-size: large;
     text-align: center;

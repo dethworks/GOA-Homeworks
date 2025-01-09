@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .num1 {
+    text-align: center;
+    background-color: navy;
+    font-family: "Arial", sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    border: solid;
+    color: lightblue;
+  }
+  
+  .image1 {
+    border: 5px solid lightblue;
+    width: 600px;
+    cursor: pointer;
+  }
+  
+  .foot {
+    background-color: darkblue;
+    border: solid lightblue 5px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+  }
+  

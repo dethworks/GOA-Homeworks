@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playwrite VN", serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.card {
+    background-color: rgb(255, 186, 11);
+    width: 300px;
+    border-radius: 32px;
+    margin: 10px auto;        
+    padding: 10px;
+    box-shadow: rgba(1, 1, 2, 2) 1.95px 1.95px 2.6px 2.2px;     
+  }

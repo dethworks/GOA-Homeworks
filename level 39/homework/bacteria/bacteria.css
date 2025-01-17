@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(166,58,180);
+    background: linear-gradient(90deg, rgba(166,58,180,1) 0%, rgba(29,253,228,1) 50%, rgba(81,69,252,1) 100%);
+    background-repeat: 2;
+    height: 100vh;
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+
+
+ul{
+    margin: 100px;
+    list-style-image: url(/level\ 39/homework/assets/bacteria.png)
+}

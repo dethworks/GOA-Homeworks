@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Playwrite VN", serif;
+    background: rgb(71, 221, 34);
+    background: linear-gradient(145deg, rgb(81, 221, 34) 26%, rgba(7, 225, 55, 0.981) 46%, rgba(17,74,125,1) 64%, rgba(3,50,49,1) 84%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+
+}
+ul{
+    margin-left: 20px;
+    list-style-type: georgian;
+    list-style-image: url();
+    list-style-position: inside;
+}

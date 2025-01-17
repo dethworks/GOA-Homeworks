@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63,64,251);
+    background: radial-gradient(circle, rgba(63,64,251,1) 0%, rgba(255,149,0,1) 100%);
+    background-repeat: 2;
+    height: 100vh;
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+
+
+ul{
+    margin: 100px;
+    list-style-image: url(/level\ 39/homework/assets/bird.png)
+}

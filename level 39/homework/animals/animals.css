@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(188, 148, 3);
+    background: linear-gradient(145deg, hwb(207 2% 10%) 26%, rgba(255, 235, 14, 0.981) 46%, rgba(17,74,125,1) 64%, rgba(3,50,49,1) 84%);
+    background-repeat: 2;
+    height: 100vh;
+    font-family: "Hanalei", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+ul{
+    margin: 100px;
+    list-style-image: url(/level\ 39/homework/assets/smpaw.png)
+}

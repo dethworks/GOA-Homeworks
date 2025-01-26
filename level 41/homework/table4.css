@@ -1,0 +1,88 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        
+        .pricing-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        
+        .pricing-card {
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+     
+        .basic {
+            background: linear-gradient(135deg, #d8b4f8, #b48ef8);
+        }
+
+        .standard {
+            background: linear-gradient(135deg, #f8a8c4, #f88eb4);
+        }
+
+        .premium {
+            background: linear-gradient(135deg, #a8d8f8, #8eb4f8);
+        }
+
+   
+        .icon img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        
+        h2 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 40px;
+            margin: 10px 0;
+        }
+
+      
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+  
+        button {
+            background-color: white;
+            color: #333;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }

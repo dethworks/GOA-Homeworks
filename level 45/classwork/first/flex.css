@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+  }
+  .box1 {
+    width: 50%;
+    background-color: rgb(97, 246, 11);
+    padding: 10px;
+    text-align: center;
+  }
+  .box2 {
+    width: 50%;
+    background-color: rgb(179, 11, 246);
+    padding: 10px;
+    text-align: center;
+  }

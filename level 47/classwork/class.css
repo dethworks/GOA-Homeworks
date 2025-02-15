@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000a3;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  border: 2px solid black;
+  padding: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  width: 100px;
+  height: 50px;
+  border: 2px solid rgb(27, 244, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000a3;
+  margin-bottom: 20px;
+}
+.box:last-child {
+  margin-bottom: 0;
+}

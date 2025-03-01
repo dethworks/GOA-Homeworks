@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Ticket Generator</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./full.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <img src="conference-ticket-generator-main/assets/images/logo-full.svg" alt="Coding Conf Logo" class="logo">
+            <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+            <p>Secure your spot at next year's biggest coding conference.</p>
+        </header>
+
+        <div class="circle1">
+            <img src="./conference-ticket-generator-main/assets/images/pattern-circle.svg" alt="circle">
+        </div>
+
+        <!-- Upload Avatar Section -->
+        <section class="avatar-upload">
+            <p class="uploadavatar">Upload Avatar</p>
+            <form>
+                <div class="input-div">
+                    <input class="input" name="file" type="file">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+                        <polyline points="16 16 12 12 8 16"></polyline>
+                        <line y2="21" x2="12" y1="12" x1="12"></line>
+                        <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path>
+                        <polyline points="16 16 12 12 8 16"></polyline>
+                    </svg>
+                </div>
+            </form>
+        </section>
+
+        <!-- Registration Form -->
+        <section class="registration-form">
+            <form>
+                <!-- Full Name -->
+                <div class="form-section">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Enter your full name" required>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-section">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="example@email.com" required>
+                </div>
+                
+                <!-- GitHub Username -->
+                <div class="form-section">
+                    <label for="github">GitHub Username</label>
+                    <input type="text" id="github" placeholder="@yourusername" required>
+                </div>
+                
+                <!-- Submit Button -->
+                <button type="submit">Generate My Ticket</button>
+            </form>
+        </section>
+    </div>
+
+    <div class="lines">
+        <img src="./conference-ticket-generator-main/assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="lines">
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #6b4cf5 0%, #9d71e8 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.mockup {
+    width: 50%;
+}
+
+.browser-mockup {
+    background-color: #001a33;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.browser-header {
+    background-color: #001a33;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browser-address {
+    background-color: #ffffff20;
+    height: 15px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.browser-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu-line {
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+.browser-content {
+    background-color: white;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.circle-red {
+    background: linear-gradient(135deg, #ff9a9e 0%, #ff5555 100%);
+}
+
+.circle-blue {
+    background: linear-gradient(135deg, #90caf9 0%, #2196f3 100%);
+}
+
+.circle-purple {
+    background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
+}
+
+.text-line {
+    height: 8px;
+    background-color: #f0f0f0;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.text-line-short {
+    width: 30%;
+}
+
+.text-line-medium {
+    width: 60%;
+}
+
+.text-line-long {
+    width: 90%;
+}
+

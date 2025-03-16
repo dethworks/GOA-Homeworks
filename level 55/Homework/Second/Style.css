@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5e9de;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 15px;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+
+.recipe-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.recipe-description {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.recipe-section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #8B4513;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.prep-time {
+    background-color: #f9f0f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.prep-time-title {
+    color: #993366;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prep-time-list {
+    list-style-type: none;
+}
+
+.prep-time-list li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.prep-time-list li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #993366;
+}
+
+
+.ingredients-list {
+    list-style-type: none;
+}
+
+.ingredients-list li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.ingredients-list li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #8B4513;
+}
+
+
+.instructions-list {
+    list-style-type: none;
+    counter-reset: step-counter;
+}
+
+.instructions-list li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.instructions-list li:before {
+    content: counter(step-counter) ".";
+    counter-increment: step-counter;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrition-value {
+    color: #8B4513;
+    font-weight: bold;
+    text-align: right;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e8f0f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.subscription-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 30px;
+}
+
+.community-title {
+    color: #18b8b2;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.guarantee-text {
+    color: #c4d628;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.description {
+    color: #7d8896;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-body {
+    display: flex;
+}
+
+.pricing-section {
+    flex: 1;
+    background-color: #18b8b2;
+    color: white;
+    padding: 30px;
+}
+
+.benefits-section {
+    flex: 1;
+    background-color: #26bbb5;
+    color: white;
+    padding: 30px;
+}
+
+.subscription-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price-period {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.price-description {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.signup-button {
+    background-color: #c4d628;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #d2e232;
+}
+
+.benefits-list {
+    list-style-type: none;
+}
+
+.benefits-list li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    opacity: 0.9;
+}

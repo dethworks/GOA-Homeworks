@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: #ecf2f8;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.testimonial-grid {
+    max-width: 600px; 
+    width: 100%;
+}
+
+.testimonial-card {
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; 
+    overflow: hidden;
+}
+
+
+.testimonial-card:last-child {
+    margin-bottom: 0;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid transparent;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.status {
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 0.9em;
+}
+
+.summary {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 18px;
+}
+
+.quote {
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 1em;
+}
+
+.bg-purple { background-color: #733fc8; }
+.bg-dark-gray { background-color: #48556a; }
+.bg-dark-blue { background-color: #19202d; }
+.bg-white { background-color: #ffffff; }
+
+.text-light { color: #ffffff; }
+.text-dark { color: #48556a; }
+
+
+.card-daniel .profile-image {
+    border-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.card-patrick .profile-image {
+    border-color: #733fc8;
+}

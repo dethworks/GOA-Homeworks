@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+button {
+    background-color: #383333;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: dashed;
+    margin-left: 850px;
+    margin-top: 400px;
+    border-radius: 100px;
+    animation: scale 3s linear infinite;
+}
+
+@keyframes scale {
+    0% { transform: scale(1) rotate(0deg);
+    color: #00e2ff;}
+    100% { transform: scale(2) rotate(360deg);
+    color: #ff00f1;}
+}
+

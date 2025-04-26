@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d472af4-f192-493f-8eb7-ca4fc70fd592" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../level 25/classwork/Bully index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/The Evil Within/The Evil Within index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/The Evil Within/evil.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/icons/evill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/icons/the evil within icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/icons/within.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/images/oW8ShmeCKapjXbHxjHUlmqB1.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/images/steam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/images/within.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../level 25/homework/videos/The Evil Within - Teaser Trailer - Bethesda Softworks (720p, h264, youtube).mp4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2wGAUyu8sRNyWdZLOc8RZeqy8js" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/luka/Desktop/GOA Projects/level 65/Homework",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d472af4-f192-493f-8eb7-ca4fc70fd592" name="Changes" comment="" />
+      <created>1745657557660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745657557660</updated>
+      <workItem from="1745657558982" duration="337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

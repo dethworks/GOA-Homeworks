@@ -2,7 +2,8 @@ def two_sort(array):
     array.sort()
     return '***'.join(array[0])
 
-#2
+                                                 #2
+
 
 class Person:
   def __init__(self, name, surname, dad_name):
@@ -16,3 +17,5 @@ class Person:
 p1 = Person("Zura", "Beqauri", "temuri")
 
 print(p1)
+
+

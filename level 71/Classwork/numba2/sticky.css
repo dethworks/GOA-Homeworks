@@ -1,0 +1,14 @@
+body {
+    background: #0d207e;
+    height: 200vh;
+}
+
+.sticky {
+    background: #c2a107;
+    color: #6a18e7;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+

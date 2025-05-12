@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>::before and ::after Demo</title>
+    <style>
+        .box {
+            position: relative;
+            padding: 20px;
+            border: 2px solid #333;
+            margin: 50px auto;
+            width: 300px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .box::before {
+            content: "🔥";
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            font-size: 24px;
+        }
+
+        .box::after {
+            content: "⚡";
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    This is a box with ::before and ::after
+</div>
+
+</body>
+</html>

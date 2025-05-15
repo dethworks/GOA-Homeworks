@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    border-left: 4px solid #007acc;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.post-title::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 100%;
+    background: #007acc;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.post-content::after {
+    content: " ✅";
+    color: #28a745;
+}
+
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.layout section {
+    flex: 1 1 100%;
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 1000px) {
+    .layout section {
+        flex: 1 1 30%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+    .layout section {
+        flex: 1 1 47%;
+    }
+}
+
+@media (max-width: 599px) {
+    .layout section {
+        flex: 1 1 100%;
+    }
+}
+
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.context-btn {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    padding: 0.5rem 1rem;
+}
+
+.chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007acc;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.portfolio > * {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    width: 40%;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 90%;
+    }
+}

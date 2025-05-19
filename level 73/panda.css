@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Kung Fu', sans-serif;
+    src: url('assetes/Fonts/ZenDots-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Panda', sans-serif;
+    src: url('assetes/Fonts/CaveatBrush-Regular.ttf');
+}
+
+.default-font {
+    font-family: 'Kung Fu', sans-serif;
+}
+
+.primary-font {
+    font-family: 'Panda', sans-serif;
+}

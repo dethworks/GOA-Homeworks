@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        #square {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            margin-top: 10px;
+        }
+
+        #div1 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    let age = 15;
+    console.log(age);
+</script>
+
+<script>
+    const name = "Luka";
+    console.log(name);
+</script>
+
+<div id="div1"></div>
+<button onclick="BgChanger()">Red Theme</button>
+
+<script>
+    let div = document.getElementById("div1");
+    console.log(div);
+
+    function BgChanger() {
+        document.body.style.background = "red";
+    }
+</script>
+
+<br><br>
+
+<input type="text" id="userInput" placeholder="Type something">
+<button onclick="logText()">Click</button>
+
+<script>
+    function logText() {
+        let input = document.getElementById("userInput").value;
+        console.log(input);
+    }
+</script>
+
+<br><br>
+
+<div id="square"></div>
+<button onclick="changeSquare()">Change</button>
+
+<script>
+    function changeSquare() {
+        let square = document.getElementById("square");
+        square.style.backgroundColor = "orange";
+        square.style.width = "150px";
+        square.style.height = "150px";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>Dark Mode</title>
+<html>
+<head>
+    <title>Dark Mode Toggle</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+
+        .dark {
+            background-color: #121212;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<button id="dark-mode-button">Toggle Dark Mode</button>
+
+<script>
+    const button = document.getElementById('dark-mode-button');
+    let darkMode = false;
+
+    button.addEventListener('click', function () {
+        if (darkMode) {
+            document.body.classList.remove('dark');
+            darkMode = false;
+        } else {
+            document.body.classList.add('dark');
+            darkMode = true;
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+

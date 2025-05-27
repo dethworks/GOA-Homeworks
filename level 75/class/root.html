@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Root</title>
+</head>
+<body>
+<style>
+    :root {
+        --color-primary: rgb(105, 100, 100);
+        --color-secondary: rgb(176, 166, 166);
+        --color-secondary2: rgb(203, 197, 197);
+        --color-secondary3: rgb(255, 255, 255);
+        --color-secondary4: rgb(66, 59, 59);
+        --color-secondary5: rgb(59, 55, 55);
+        --color-secondary6: rgb(35, 33, 33);
+    }
+    body{
+        background-color: var(--color-primary);
+    }
+    .btn{
+        background-color: var(--color-secondary);
+        color: var(--color-secondary3);
+    }
+
+</style>
+<button class = "btn">Click Me</button>
+
+<script>
+    const button = document.getElementById('dark-mode');
+
+    let darkMode = true;
+
+    button.addEventListener('click', function () {
+        if (darkMode) {
+            document.body.classList.add('dark');
+            darkMode = false;
+        } else {
+            document.body.classList.remove('dark');
+            darkMode = true;
+        }
+    });
+</script>
+
+</body>
+</html>

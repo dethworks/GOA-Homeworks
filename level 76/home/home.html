@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 76 Exercises</title>
+</head>
+<body>
+<h1>Open the browser console to see the results (F12)</h1>
+
+<script>
+    const names = ["nika", "luka", "mari"];
+    const [firstName, secondName, thirdName] = names;
+    console.log(firstName);
+    console.log(secondName);
+    console.log(thirdName);
+
+    const numbers = [10, 30, 5, 2, 99];
+    numbers.push(100);
+    numbers.pop();
+    numbers.shift();
+    numbers.unshift(50);
+    const joinedText = numbers.join("-");
+    const stringVersion = numbers.toString();
+    const extraNumbers = [1, 2];
+    const allNumbers = numbers.concat(extraNumbers);
+    console.log(numbers);
+    console.log(joinedText);
+    console.log(stringVersion);
+    console.log(allNumbers);
+
+    const fruits = ["apple", "banana", "mango"];
+    const lastItem = fruits[fruits.length - 1];
+
+    const arrayOne = [9, 3, 1];
+    const arrayTwo = [4, 6, 5];
+    const combined = arrayOne.concat(arrayTwo);
+    const sortedNumbers = combined.sort((a, b) => a - b);
+    console.log(sortedNumbers);
+
+    const letters = ["H", "e", "l", "l", "o"];
+    const message = letters.join("");
+    console.log(message);
+</script>
+</body>
+</html>
